@@ -6,6 +6,7 @@
     "env":{
         "registerUrl":"https://woowbd.com/register",
         "loginUrl": "https://woowbd.com/login",
+        "resetUrl":"https://woowbd.com/password/reset",
         "trackOrderUrl": "https://woowbd.com/track",
         "usaOrderBookingUrl": "https://woowbd.com/booking",
         "shopForMeUrl":"https://woowbd.com/shopforme",

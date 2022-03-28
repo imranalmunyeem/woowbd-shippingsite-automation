@@ -44,12 +44,18 @@ describe('Registration Page',()=>{
     context('Registration with Social Platforms',()=>{
         it('Registration should be successful with Google', ()=>{
             registerpo.signupWithGoogle();
-            registerpo.googleResponse();
+            
+            //Sign up response after clicking on google
+            const response = cy.get(':nth-child(2) > ins');
+            response.should('contain', 'That’s an error.');
         })
 
         it('Registration should be successful with facebook', ()=>{
             registerpo.signupWithFacebook();
-            registerpo.facebookResponse();
+
+            //Sign up response after clicking on facebook
+            const facebookResponse = cy.get('.phl > :nth-child(1)');
+            facebookResponse.should('contain', "There was a problem with this request. We're working on getting it fixed as soon as we can.");
         })
     })
 

@@ -43,10 +43,7 @@ class RegisterPO{
         googleButton.click();
     }
 
-    googleResponse(){
-        const response = cy.get(':nth-child(2) > ins');
-        response.should('contain', 'That’s an error.')
-    }
+
 
     signupWithFacebook(){
         const facebookButton = cy.get('.btn-facebook')
@@ -54,9 +51,6 @@ class RegisterPO{
         facebookButton.click();
     }
 
-    facebookResponse(){
-        const response = cy.get('.phl > :nth-child(1)')
-        response.should('contain', "There was a problem with this request. We're working on getting it fixed as soon as we can.")
-    }
+
 }
 export default RegisterPO;
