@@ -1,0 +1,15 @@
+{
+  "name": "woowbd-shippingsite-automation",
+  "version": "1.0.0",
+  "description": "Project that will check the features of the website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "IMRAN AL MUNYEEM",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.2"
+  }
+}

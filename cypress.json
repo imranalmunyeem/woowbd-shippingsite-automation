@@ -1,0 +1,15 @@
+{
+    "chromeWebSecurity": false,
+
+    "baseUrl": "https://woowbd.com/",
+
+    "env":{
+        "registerUrl":"https://woowbd.com/register",
+        "loginUrl": "https://woowbd.com/login",
+        "trackOrderUrl": "https://woowbd.com/track",
+        "usaOrderBookingUrl": "https://woowbd.com/booking",
+        "shopForMeUrl":"https://woowbd.com/shopforme",
+        "shipForMeUrl": "https://woowbd.com/shipforme"
+
+    }
+}
