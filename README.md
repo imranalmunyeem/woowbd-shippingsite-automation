@@ -1,4 +1,4 @@
-# Project Name: Woowbd Shipping websote
+# Project Name: Woowbd Shipping website
 # Project Description
 This website import products from the US and ship to the customers of Bangladesh.
 # Help + Testing
@@ -84,8 +84,9 @@ step 5: Custom scripts (Not Mandatory): Paste them on "package.json" file
 
 
 # Cypress Retry Installation
-Step 1: Run this on terminal: npm install -D cypress-plugin-retries
-Step 2 : At the top of cypress/support/index.js: require('cypress-plugin-retries')
+>Step 1: Run this on terminal: npm install -D cypress-plugin-retries
+
+>Step 2 : At the top of cypress/support/index.js: require('cypress-plugin-retries')
 
 
 # All Custom Scripts
