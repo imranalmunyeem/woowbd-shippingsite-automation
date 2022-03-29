@@ -1,7 +1,12 @@
 {
+  "baseUrl": "https://woowbd.com/",
   "chromeWebSecurity": false,
   "failOnStatusCode": false,
-  "baseUrl": "https://woowbd.com/",
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 30000,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+
   "env": {
     "RETRIES": 2,
     "registerUrl": "https://woowbd.com/register",
