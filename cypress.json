@@ -1,23 +1,26 @@
 {
-    "chromeWebSecurity": false,
-    "failOnStatusCode": false,
-
-    "baseUrl": "https://woowbd.com/",
-
-    "env":{
-        "registerUrl":"https://woowbd.com/register",
-        "loginUrl": "https://woowbd.com/login",
-        "resetUrl":"https://woowbd.com/password/reset",
-        "trackOrderUrl": "https://woowbd.com/track",
-        "usaOrderBookingUrl": "https://woowbd.com/booking",
-        "shopForMeUrl":"https://woowbd.com/shopforme",
-        "shipForMeUrl": "https://woowbd.com/shipforme",
-        "shippingPolicyUrl": "https://woowbd.com/shipping-refund-policy.pdf",
-        "privacyPolicyUrl": "https://woowbd.com/privacy-policy",
-        "prohibitedItemsUrl": "https://woowbd.com/Prohibited_items.pdf",
-        "facebookUrl":"https://www.facebook.com/woowglobal/",
-        "linkedinUrl":"https://www.linkedin.com/company/woow-bd/",
-        "instagramUrl":"https://www.instagram.com/woowtechnologiesltd/?hl=en"
-
+  "chromeWebSecurity": false,
+  "failOnStatusCode": false,
+  "baseUrl": "https://woowbd.com/",
+  "env": {
+    "registerUrl": "https://woowbd.com/register",
+    "loginUrl": "https://woowbd.com/login",
+    "resetUrl": "https://woowbd.com/password/reset",
+    "trackOrderUrl": "https://woowbd.com/track",
+    "usaOrderBookingUrl": "https://woowbd.com/booking",
+    "shopForMeUrl": "https://woowbd.com/shopforme",
+    "shipForMeUrl": "https://woowbd.com/shipforme",
+    "shippingPolicyUrl": "https://woowbd.com/shipping-refund-policy.pdf",
+    "privacyPolicyUrl": "https://woowbd.com/privacy-policy",
+    "prohibitedItemsUrl": "https://woowbd.com/Prohibited_items.pdf",
+    "facebookUrl": "https://www.facebook.com/woowglobal/",
+    "linkedinUrl": "https://www.linkedin.com/company/woow-bd/",
+    "instagramUrl": "https://www.instagram.com/woowtechnologiesltd/?hl=en"
+  },
+  "projectId": "cd2gi3",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions":{
+      "configFile": "reporter-config.json"
     }
-}
+  }
+
