@@ -3,6 +3,7 @@
   "failOnStatusCode": false,
   "baseUrl": "https://woowbd.com/",
   "env": {
+    "RETRIES": 2,
     "registerUrl": "https://woowbd.com/register",
     "loginUrl": "https://woowbd.com/login",
     "resetUrl": "https://woowbd.com/password/reset",
@@ -19,7 +20,7 @@
   },
   "projectId": "cd2gi3",
     "reporter": "cypress-multi-reporters",
-    "reporterOptions":{
+    "reporterOptions": {
       "configFile": "reporter-config.json"
     }
   }
