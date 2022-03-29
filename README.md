@@ -83,7 +83,7 @@ step 5: Custom scripts (Not Mandatory): Paste them on "package.json" file
     "delete-all-results-files": "rm -rf cypress/results/* || true"
     
 
-# Custom Scripts
+# All Custom Scripts
 To run custom scripts, open terminal and write "npm run script name"
 
     "triggerAllTests-headless": "npx cypress run",
