@@ -47,7 +47,7 @@ step 2: Paste the following code in "reporter-config.json" file
 Step 3: To merge run the follwing in CL or make script:
    "mochawesome-merge": "npx mochawesome-merge cypress/results/mochawesome/*.json > mochawesome.json && npx marge mochawesome.json"
 
-Step: To Delete all run the follwing in CL or make script:
+Step 4: To Delete all run the follwing in CL or make script:
     "delete-mochawesome-report": "rm -rf mochawesome-report/* || true",
 
 Step 5: Delete all and run again 
