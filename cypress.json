@@ -1,5 +1,6 @@
 {
     "chromeWebSecurity": false,
+    "failOnStatusCode": false,
 
     "baseUrl": "https://woowbd.com/",
 
@@ -10,7 +11,13 @@
         "trackOrderUrl": "https://woowbd.com/track",
         "usaOrderBookingUrl": "https://woowbd.com/booking",
         "shopForMeUrl":"https://woowbd.com/shopforme",
-        "shipForMeUrl": "https://woowbd.com/shipforme"
+        "shipForMeUrl": "https://woowbd.com/shipforme",
+        "shippingPolicyUrl": "https://woowbd.com/shipping-refund-policy.pdf",
+        "privacyPolicyUrl": "https://woowbd.com/privacy-policy",
+        "prohibitedItemsUrl": "https://woowbd.com/Prohibited_items.pdf",
+        "facebookUrl":"https://www.facebook.com/woowglobal/",
+        "linkedinUrl":"https://www.linkedin.com/company/woow-bd/",
+        "instagramUrl":"https://www.instagram.com/woowtechnologiesltd/?hl=en"
 
     }
 }
